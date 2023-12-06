@@ -1,0 +1,15 @@
+/* Add your own font import if needed */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.chat-container{
+  width: 50%;
+border : 1px solid black;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #333;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

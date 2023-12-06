@@ -1,0 +1,103 @@
+.profile-container {
+  display: flex;
+  
+}
+
+.profile {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.friend-list {
+width: 17%;
+  
+  text-align: center;  
+  margin: 18vh;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+  border: 1px solid #030b6b;
+}
+
+.profile-photo {
+  width: 100%;
+  background-color: var(--light-blue);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  & img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+
+  & h3 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+form {
+  label {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="file"],
+  input[type="email"],
+  select,
+  textarea,
+  input[type="password"] {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 100%;
+    border: 1px solid #777;
+    border-radius: 3px;
+    outline: none;
+  }
+}
+
+.friend-list {
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.4rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
