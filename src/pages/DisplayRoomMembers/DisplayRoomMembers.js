@@ -18,7 +18,7 @@ const DisplayToRoom = () => {
 
   useEffect(() => {
     // const socket = io.connect('https://rideback.onrender.com');
-    const socket = io.connect('http://localhost:5000');
+    const socket = io.connect('https://rb-pfj6.onrender.com');
 
     socket.on('LocationUpdate', (locationUpdateData) => {
       console.log('Location of sunil:', locationUpdateData);
